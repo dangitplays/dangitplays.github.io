@@ -1,2 +1,1 @@
-# dangitplays.github.io
-ads this is
+alert("your gay")
