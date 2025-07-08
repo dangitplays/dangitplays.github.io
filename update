@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Respect user preference for dark mode -->
+  <meta name="color-scheme" content="light dark">
+  <title>Dark Mode Page</title>
+  <style>
+    /* Base dark theme */
+    body {
+      background-color: #121212; /* soft dark black */
+      color: #e0e0e0;            /* light gray text */
+      font-family: sans-serif;
+      margin: 0;
+      padding: 2rem;
+    }
+    a {
+      color: #bb86fc; /* accent color */
+    }
+    header, footer {
+      text-align: center;
+      padding: 1rem 0;
+    }
+
+    /* If user prefers light mode, switch */
+    @media (prefers-color-scheme: light) {
+      body {
+        background-color: #ffffff;
+        color: #111111;
+      }
+      a {
+        color: #1a0dab;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Dark Site</h1>
+  </header>
+
+  <main>
+    <p>This website supports a black theme using HTML + CSS.</p>
+    <p><a href="#">This is a link</a></p>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Your Name</p>
+  </footer>
+</body>
+</html>
